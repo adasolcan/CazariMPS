@@ -1,4 +1,6 @@
 class DocumentsController < ApplicationController
+  # controller aferent operatiilor cu documente
+
   # GET /documents
   # GET /documents.json
   def index
