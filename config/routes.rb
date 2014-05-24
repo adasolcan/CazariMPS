@@ -10,7 +10,7 @@ Cazari::Application.routes.draw do
   match '/auth/:provider/callback', :to => 'user_sessions#create'
   match '/auth/failure', :to => 'user_sessions#failure'
 
-  #logout
+  #logout lala
   match '/logout', :to => 'user_sessions#destroy'
 
   #pagini guest
