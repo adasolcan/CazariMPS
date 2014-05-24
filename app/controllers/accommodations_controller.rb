@@ -188,4 +188,7 @@ class AccommodationsController < ApplicationController
 
   def session_show
   end
+  
+  def set_employees
+  end
 end
